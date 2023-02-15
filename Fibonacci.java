@@ -32,6 +32,7 @@ public class Fibonacci {
 
     public static void main(String[] args) {
         fibIter(10);
+        System.out.println("Fibonacci Series Up to 10:");
         System.out.print(0 + " " + 1 + " ");
         cnt++;
         fibRec(3, 10, 0, 1);
